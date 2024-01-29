@@ -6,7 +6,7 @@ import { useContext, useEffect, useState } from "react"
 import { UserContext } from "../context/UserContext"
 import axios from "axios"
 import { URL } from "../url"
-import HomePost from "../components/HomePost"
+import HomePosts from "../components/HomePosts"
 import Loader from "../components/Loader"
 const MyBlogs = () => {
   const {search}=useLocation()
@@ -50,7 +50,7 @@ const MyBlogs = () => {
     posts.map((post)=>(
       <>
       <Link to={user?`/posts/post/${post._id}`:"/login"}>
-      <HomePost key={post._id} post={post}/>
+      <HomePosts key={post._id} post={post}/>
       </Link>
       </>
       
