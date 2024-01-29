@@ -7,7 +7,7 @@ const cors = require('cors')
 const userRoute = require('./routes/user')
 const postRoute = require('./routes/post')
 const commentRoute = require('./routes/comments')
-const cookieParser = require('cookie-parser')
+
 const multer = require('multer')
 const path = require('path')
 //database
