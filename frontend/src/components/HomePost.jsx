@@ -38,4 +38,4 @@ const HomePosts = ({ post }) => {
   );
 };
 
-export default HomePosts;
+export default HomePost;
