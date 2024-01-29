@@ -1,4 +1,3 @@
-
 import { IF } from "../url"
 const HomePosts = ({post}) => {
   return (
