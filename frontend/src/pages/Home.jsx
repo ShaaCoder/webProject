@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Footer from "../components/Footer"
-import HomePosts from '../components/Homeposts'
+import HomePosts from '../components/HomePosts';
 import Navbar from "../components/Navbar"
 import axios from 'axios'
 import { URL } from '../url'
